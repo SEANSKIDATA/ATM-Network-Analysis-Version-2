@@ -68,11 +68,13 @@ Example dashboard visualizations used to monitor ATM network performance.
 
 ## Example SQL Queries
 
+```sql
 SELECT region,
-SUM(total_cash_withdrawn_usd)
-FROM atm_withdrawals
+       SUM(total_cash_withdrawn_usd) AS total_cash_withdrawn
+FROM regional_cash_demand
 GROUP BY region
-ORDER BY total_cash_withdrawn_usd DESC;
+ORDER BY total_cash_withdrawn DESC;
+```
 
 ## Future Enhancements
 
