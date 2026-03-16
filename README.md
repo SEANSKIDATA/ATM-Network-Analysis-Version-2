@@ -22,9 +22,12 @@ cash_target_variance.csv
 highest_withdrawal_atms.csv  
 regional_cash_demand.csv  
 
+
 ## Operational Insight
 
 This project demonstrates how ATM network operators can use analytics to monitor withdrawal demand and optimize cash replenishment strategies.
+
+Note: The dataset represents a simulated operational snapshot of ATM network activity used for analytical demonstration purposes.
 
 ## Key Insights
 
