@@ -1,0 +1,11 @@
+atm_terminal_id,region,location_type,portfolio_tier,total_cash_withdrawn
+BP00004,Northeast,Transit Station,Platinum,"$79,840 "
+SE00018,Southwest,Bank Branch,Platinum,"$76,020 "
+SH00010,Southeast,Airport,BB,"$74,720 "
+WA00001,Northeast,Retail,Platinum,"$74,140 "
+SH00020,Southwest,Airport,BB,"$73,460 "
+SE00008,Southeast,Bank Branch,Platinum,"$70,540 "
+SH00015,Midwest,Bank Branch,Platinum,"$69,280 "
+CV00002,Northeast,Bank Branch,BB,"$65,740 "
+WA00016,Southwest,Retail,BB,"$63,680 "
+WA00006,Southeast,Retail,BB,"$62,560 "
