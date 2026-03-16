@@ -23,6 +23,7 @@ highest_withdrawal_atms.csv
 regional_cash_demand.csv  
 
 
+
 ## Operational Insight
 
 This project demonstrates how ATM network operators can use analytics to monitor withdrawal demand and optimize cash replenishment strategies.
@@ -60,3 +61,32 @@ Regions such as the **West** recorded lower overall withdrawal totals compared t
 
 **Operational Meaning:**  
 Operators could potentially reduce replenishment frequency or cash allocation in these regions to improve operational efficiency.
+
+## Dashboard
+
+Example dashboard visualizations used to monitor ATM network performance.
+
+## Example SQL Queries
+
+SELECT region,
+SUM(total_cash_withdrawn_usd)
+FROM atm_withdrawals
+GROUP BY region
+ORDER BY total_cash_withdrawn_usd DESC;
+
+## Future Enhancements
+
+- Introduce time-series transaction data
+- Forecast ATM cash demand
+- Optimize replenishment schedules using predictive analytics
+
+## Data Dictionary
+
+atm_terminal_id – Unique ATM identifier  
+region – Geographic service region  
+location_type – ATM location category  
+portfolio_tier – Operational priority tier  
+avg_daily_withdrawal_target – Expected withdrawal volume  
+actual_avg_withdrawal – Observed withdrawal volume  
+variance – Difference between target and actual
+
