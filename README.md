@@ -25,3 +25,35 @@ regional_cash_demand.csv
 ## Operational Insight
 
 This project demonstrates how ATM network operators can use analytics to monitor withdrawal demand and optimize cash replenishment strategies.
+
+## Key Insights
+
+### 1. Northeast Region Shows the Highest Cash Demand
+The Northeast region recorded the largest total withdrawal volume at **$296,280**, indicating consistently strong ATM usage compared to other regions.
+
+**Operational Meaning:**  
+ATM operators should prioritize higher cash loading levels and more frequent replenishment cycles in this region to avoid machine downtime.
+
+---
+
+### 2. Transit and Airport Locations Drive High Withdrawal Activity
+ATMs located in **transit stations and airports** appear among the top-performing terminals in total withdrawals.
+
+**Operational Meaning:**  
+High-traffic travel hubs generate predictable cash demand and should be monitored closely to ensure machines remain fully stocked during peak travel periods.
+
+---
+
+### 3. Several Terminals Exceed Their Daily Withdrawal Targets
+Multiple ATMs show **positive variance between expected and actual withdrawals**, indicating stronger-than-anticipated usage.
+
+**Operational Meaning:**  
+These terminals may require revised withdrawal targets and adjusted replenishment schedules to better reflect actual customer demand.
+
+---
+
+### 4. Lower Performing Regions May Allow Replenishment Optimization
+Regions such as the **West** recorded lower overall withdrawal totals compared to other regions.
+
+**Operational Meaning:**  
+Operators could potentially reduce replenishment frequency or cash allocation in these regions to improve operational efficiency.
