@@ -1,3 +1,5 @@
+![ATM Network Analysis](atm_network_cover.png)
+
 # ATM Network Analysis – Version 2
 
 This project analyzes ATM withdrawal activity across a simulated national ATM network.
