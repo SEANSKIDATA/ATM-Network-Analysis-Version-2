@@ -322,9 +322,36 @@ This project demonstrates how SQL can be used to:
 
 ---
 
+### 🔍 Dashboard Overview
+
+This dashboard transforms raw SQL output into a decision-support tool for ATM network operations. It surfaces regional cash demand concentration, terminal-level performance against daily targets, and location type efficiency — giving stakeholders the information needed to prioritize replenishment schedules, flag underperforming machines, and evaluate placement strategy without digging through raw data.
+
+---
+
+### 💡 Why This Matters
+
+This dashboard supports:
+- Cash replenishment prioritization
+- ATM placement strategy
+- Performance monitoring
+- Operational risk reduction
+
+Instead of analyzing static tables, stakeholders can quickly identify:
+- Where demand is concentrated
+- Which ATMs require immediate attention
+- How the network is performing overall
+
+---
+
+### 🚀 Key Insight
+
+High-traffic locations such as **Transit Stations and Airports** deliver the highest per-terminal performance, while **regional concentration (Top 3 regions = ~68% of volume)** highlights where operational resources should be focused.
+
+---
+
 ## 👤 About the Author
 
-**Sean Codner** — Operations & Data Analyst
+**Sean Codner** — Operations & Data Analyst  
 Houston, Texas
 
 Background in ATM network operations at **Cardtronics**, supporting performance monitoring across a network of 45,000+ machines nationwide. This project applies that operational experience to a structured multi-table SQL analysis framework.
@@ -336,3 +363,8 @@ Background in ATM network operations at **Cardtronics**, supporting performance 
 ---
 
 *Tools used: MySQL · SQL · Google Sheets · GitHub*
+
+
+
+
+
